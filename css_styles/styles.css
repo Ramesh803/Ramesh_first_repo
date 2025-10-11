@@ -1,3 +1,7 @@
+/* IF we are using .box means we are uising class name property */
+/* and .box or h or p img any thing in left side we will call like SELECTOR */
+
+/* start with * that is called universal selector it will apply all */
 .box{
        width:150px;
 		border: 1px solid black;
@@ -5,6 +9,7 @@
 		margin: 3px;
 		text-align: right;
 	}
+	
 	.box-title{
 		color:red;
 		text-align:center;
@@ -17,6 +22,7 @@
 		border: 1px solid black;
 		padding: 4px;
 	}
+	/* if we are using with out dot we are using direct that property */
 	img{
 		width: 150px;
 		height: 150px;
@@ -32,6 +38,7 @@
 		float: left;
 		margin: 10px;
 	}
+	/* if we ar using any # so here we using id property */
 	#courses li{
 		float: left;
 		padding: 5px;

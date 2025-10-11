@@ -18,3 +18,4 @@ function onMagic(){
         oTitleElement.style.color = "white";
     }
 }
+

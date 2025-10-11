@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+}
+
+.mainDiv{
+    background-color: aquamarine;
+    width: min-content;
+    padding: 0in;
+    font-size: medium;
+    color: crimson;
+     
+}
+
+.subDiv{
+    font-size: medium;
+    width: max-content;
+    padding-left: 0cqmax;
+
+}
+
+#pass{
+    font-size: medium;
+    padding-right: 0cqmax;
+}
+
+.maindiv{
+   margin-top: 20px;
+    text-align: center;
+}
+
+.tmaindiv{
+      margin-top: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}

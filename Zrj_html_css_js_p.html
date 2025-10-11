@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>User Login Page</title>
+        <link href="css_styles/Zjr_html_css_js.css" rel="stylesheet">
+        <script src=""></script>
+
+    </head>
+    <body>
+    <div class="mainDiv">
+        <h3>Login Credentials</h3>
+        <form id="formId" class="formClass" onsubmit="submitEvent(event)">
+            <div class="subDiv">
+                <label>usename</label>
+                <input type="text" id="usr">
+            </div>
+            <div class="subDiv">
+                <label>password</label>
+                <input type="password" id="pass">
+            </div>
+            <button type="button">EnterLogin</button>
+        </form >
+    </div>
+   
+   
+    <div class="tmaindiv" id="mainDivId">
+         <h3>Table Information</h3>
+    <table id="tableid">
+    <thead class="subTable">
+        <tr>
+          <th>UserInfo</th>
+          <th>user details</th>
+        </tr>
+    </thead>
+       <tbody>
+        <tr>
+            <td>FullName</td>
+            <td id="fullName"></td>
+        </tr>
+          <tr>
+            <td>Email</td>
+            <td id="email"></td>
+        </tr>
+          <tr>
+            <td>Phone</td>
+            <td id="Phone"></td>
+        </tr>
+       </tbody>
+
+    </table>
+  </div>
+    </body>
+</html>
